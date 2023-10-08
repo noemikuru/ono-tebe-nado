@@ -1,8 +1,3 @@
-body {
-  /*width: 1440px;*/
-  text-underline-offset: 4px;
-}
-
 .header {
   font-size: 18px;
   font-style: normal;
@@ -174,11 +169,11 @@ body {
 }
 
 .card_type_film {
-  height: inherit;
   width: inherit;
+  height: inherit;
+  position: absolute;
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
-  background-position: center;
 }
 
 .card_type_book {
@@ -229,6 +224,7 @@ body {
   line-height: 23px;
   padding-left: 90px;
   padding-top: 30px;
+  text-underline-offset: 4px;
 }
 
 .about {
@@ -237,7 +233,6 @@ body {
   display: grid;
   grid-template-columns: 430px auto;
   gap: 25px;
-
 }
 .about__logo-column {
   display: flex;
@@ -299,6 +294,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-underline-offset: 4px;
 }
 
 .footer__contacts {
