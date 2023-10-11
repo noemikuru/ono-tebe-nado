@@ -88,7 +88,7 @@ body {
 }
 .cover__description {
   display: flex;
-  padding-bottom: 49px; 
+  padding-bottom: 49px;
   flex-direction: row;
   justify-content: end;
   align-items: center;
@@ -148,15 +148,16 @@ body {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: inherit;
   height: inherit;
 }
 
 .card-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: inherit;
+  width: inherit;
 }
 
 .card_type_film {
@@ -223,10 +224,6 @@ body {
   gap: 25px;
   margin: 180px 50px 0px;
 }
-.about__logo-column {
-  display: flex;
-  flex-direction: column;
-}
 
 .about__logo {
   display: flex;
@@ -285,9 +282,7 @@ body {
 }
 
 .footer__contacts {
-  width: 240px;
   line-height: 135%;
-  list-style: none;
 }
 
 .footer__links-list {
