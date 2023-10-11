@@ -1,3 +1,7 @@
+body {
+  width: 1440px;
+}
+
 .header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -33,36 +37,27 @@
   width: 137px;
 }
 
-
-.contacts {
-  display: flex;
-  justify-content: end;
-}
-
 .address {
+  display: flex;
+  flex-direction: column;
   font-style: normal;
 }
 
+.header__address {
+  padding-left: 208px;
+}
+
 .cover {
-  width: 100%;
-  height: 757px;
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .overlay {
-  position: absolute;
-  display: inherit;
-  flex-direction: inherit;
-  justify-content: inherit;
-  width: inherit;
-  height: inherit;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover__title {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -92,8 +87,8 @@
   letter-spacing: normal;
 }
 .cover__description {
-  position: relative;
   display: flex;
+  padding-bottom: 49px; 
   flex-direction: row;
   justify-content: end;
   align-items: center;
@@ -113,9 +108,8 @@
   word-spacing: 19px;
 }
 .bet-button {
-  flex-shrink: 0;
   width: 257px;
-  height: 52px;
+  padding: 12px 20px;
   border: 1px solid white;
   color: white;
   font-weight: inherit;
@@ -126,7 +120,6 @@
 }
 
 .lots {
-  height: 100%;
   padding-top: 180px;
 }
 
@@ -154,13 +147,7 @@
   height: 450px;
 }
 
-.card-link {
-  width: inherit;
-  height: inherit;
-}
-
 .card {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -168,8 +155,11 @@
   height: inherit;
 }
 
+.card-link {
+  height: inherit;
+}
+
 .card_type_film {
-  position: absolute;
   width: inherit;
   height: inherit;
   background-image: url(../images/card-lot-01.jpg);
@@ -231,7 +221,6 @@
   display: grid;
   grid-template-columns: 430px auto;
   gap: 25px;
-  height: 487px;
   margin: 180px 50px 0px;
 }
 .about__logo-column {
@@ -255,13 +244,12 @@
 }
 
 .about__column {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   flex-shrink: 0;
   justify-content: start;
   align-items: flex-start;
   gap: 25px;
-  height: 388px;
   padding-bottom: 0px;
 
 }
@@ -288,7 +276,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
-  height: 97px;
   margin: 181px 50px 90px;
   font-weight: 400;
   font-size: 18px;
@@ -320,8 +307,4 @@
 
 .footer__social-list-item {
   width: 48px;
-}
-
-.footer__social-link {
-  height: 48px;
 }
