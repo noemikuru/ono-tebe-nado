@@ -40,7 +40,7 @@
 }
 
 .header__address {
-  padding-left: 208px;
+  margin-left: auto;
 }
 
 .cover {
@@ -146,6 +146,19 @@
 .card {
   width: inherit;
   height: inherit;
+  background-size: cover;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card-link {
@@ -154,29 +167,6 @@
   justify-content: space-between;
   height: inherit;
   width: inherit;
-}
-
-.card_type_film {
-  width: inherit;
-  height: inherit;
-  background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-}
-
-.card_type_book {
-  width: inherit;
-  height: inherit;
-  background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.card_type_picture {
-  width: inherit;
-  height: inherit;
-  background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card__title {
